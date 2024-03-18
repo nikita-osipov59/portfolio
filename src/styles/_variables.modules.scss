@@ -7,7 +7,21 @@ $color-background: #282c33;
 
 // variables
 $fontSize-default: 16px;
+$fontSize-medium: 24px;
+$fontSize-big: 30px;
 
 $fontWeight-regular: 400;
 $fontWeight-medium: 500;
-$fontWeight-semobold: 600;
+$fontWeight-semibold: 600;
+
+$lineHeight-low: 1;
+$lineHeight-default: 1.5;
+
+$transition-default: 300ms;
+
+// button hover
+
+$color-buttonBg: rgba(
+  $color: #c778dd,
+  $alpha: 20%,
+);

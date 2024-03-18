@@ -7,11 +7,15 @@
 
 body {
   font-family: "Fira Code", sans-serif;
-  line-height: 1.5;
+  line-height: $lineHeight-default;
   font-weight: $fontWeight-regular;
   font-size: $fontSize-default;
   color: $color-accent;
   background-color: $color-background;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.pink {
+  color: $color-primary;
 }

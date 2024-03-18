@@ -1,0 +1,26 @@
+@import "../../../styles/variables.modules";
+
+.projectCard {
+  max-width: 330px;
+  border: 1px solid $color-accent;
+  margin: 0px 15px 15px 0px;
+
+  .projectImg {
+    max-width: 330px;
+  }
+  .projectScpecs {
+    border-bottom: 1px solid $color-accent;
+    padding: 8px;
+  }
+  .projectInfo {
+    padding: 15px;
+    .projectTitle {
+      font-size: $fontSize-medium;
+      font-weight: $fontWeight-medium;
+      line-height: $lineHeight-low;
+    }
+    .projectDescription {
+      margin-top: 15px;
+    }
+  }
+}
