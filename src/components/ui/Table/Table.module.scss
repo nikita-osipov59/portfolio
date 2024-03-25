@@ -1,0 +1,16 @@
+@import "../../../styles/variables.modules";
+
+.table {
+  border: 1px solid $color-accent;
+  margin-bottom: 15px;
+  .title {
+    font-weight: $fontWeight-semibold;
+    border-bottom: 1px solid $color-accent;
+    padding: 8px;
+  }
+  .description {
+    display: table;
+    padding: 8px;
+    width: 200px;
+  }
+}

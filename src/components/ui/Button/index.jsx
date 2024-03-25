@@ -5,7 +5,7 @@ import ButtonStyle from "./Button.module.scss";
 
 export const Button = ({ href, title }) => {
   return (
-    <Link to={href} className={ButtonStyle.button}>
+    <Link to={href} target="_blank" className={ButtonStyle.button}>
       {title}
     </Link>
   );

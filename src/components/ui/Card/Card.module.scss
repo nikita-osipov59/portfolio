@@ -1,14 +1,19 @@
 @import "../../../styles/variables.modules";
 
 .projectCard {
-  max-width: 330px;
+  min-width: 332px;
   border: 1px solid $color-accent;
   margin: 0px 15px 15px 0px;
-
-  .projectImg {
+  transition: 0.3s;
+  &:hover {
+    border: 1px solid $color-primary;
+  }
+  .projectImg img {
     max-width: 330px;
+    min-height: 200px;
   }
   .projectScpecs {
+    border-top: 1px solid $color-accent;
     border-bottom: 1px solid $color-accent;
     padding: 8px;
   }

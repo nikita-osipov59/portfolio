@@ -6,10 +6,10 @@ import { Card } from "../ui/Card";
 const Projects = () => {
   return (
     <section className={ProjectsStyle.projects}>
-      <div className={ProjectsStyle.title}>
+      <p className={ProjectsStyle.title}>
         <span className="pink">#</span>
         Проекты
-      </div>
+      </p>
       <div className={ProjectsStyle.box}>
         <Card />
       </div>

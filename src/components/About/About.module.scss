@@ -1,0 +1,42 @@
+@import "../../styles/variables.modules";
+
+.about {
+  margin-top: 130px;
+  .title {
+    font-size: $fontSize-big;
+    font-weight: $fontWeight-medium;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 500px;
+      background-color: $color-primary;
+      bottom: 50%;
+      margin-left: 30px;
+    }
+  }
+  .wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    .description {
+      max-width: 600px;
+      margin-top: 200px;
+      line-height: $lineHeight-medium;
+      p {
+        margin-bottom: 15px;
+      }
+      .link {
+        transition: 0.3s;
+        &:hover {
+          color: darken($color-primary, $amount: 15);
+        }
+      }
+    }
+    img {
+      border-radius: 260px;
+      height: 700px;
+    }
+  }
+}
