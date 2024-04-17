@@ -24,6 +24,20 @@
       max-width: 600px;
       margin-top: 200px;
       line-height: $lineHeight-medium;
+      position: relative;
+      &::after {
+        content: "";
+        background-image: url(/54.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 250px;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 30%;
+      }
       p {
         margin-bottom: 15px;
       }
@@ -34,9 +48,38 @@
         }
       }
     }
-    img {
-      border-radius: 260px;
-      height: 700px;
+    .img {
+      position: relative;
+      &::before {
+        content: "";
+        background-image: url(/qwe.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        left: -80px;
+        z-index: -1;
+        opacity: 30%;
+      }
+      &::after {
+        content: "";
+        background-image: url(/asd.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 0px;
+        right: -80px;
+        z-index: -1;
+        opacity: 30%;
+      }
+      img {
+        border-radius: 260px;
+        height: 700px;
+      }
     }
   }
 }

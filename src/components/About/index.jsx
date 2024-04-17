@@ -40,7 +40,7 @@ const About = () => {
           <br />
           <Button title="Написать мне" href="https://t.me/nikita_osipov59" />
         </div>
-        <div>
+        <div className={AboutStyle.img}>
           <img src="/me2.jpg" alt="me" />
         </div>
       </div>

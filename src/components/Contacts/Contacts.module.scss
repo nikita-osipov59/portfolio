@@ -2,7 +2,7 @@
 
 .contacts {
   margin-top: 130px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   .title {
     font-size: $fontSize-big;
     font-weight: $fontWeight-medium;
@@ -24,19 +24,22 @@
     }
     .description {
       display: flex;
-      flex-direction: column;
-      li {
-        list-style: inside circle;
+      justify-content: center;
+    }
+    li {
+      & + li {
+        margin-left: 15px;
+      }
+      svg {
+        max-width: 43px;
+        max-height: 43px;
+        border-radius: 50%;
       }
     }
+
     .link {
       transition: 0.3s;
       color: $color-accent;
-      img {
-        padding-left: 7px;
-        max-width: 40px;
-        max-height: 40px;
-      }
       &:hover {
         color: $color-secondary;
       }

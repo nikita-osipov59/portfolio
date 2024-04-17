@@ -19,3 +19,7 @@ body {
 .pink {
   color: $color-primary;
 }
+
+path {
+  transition: $transition-high;
+}

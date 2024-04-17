@@ -5,7 +5,7 @@ import { Card } from "../ui/Card";
 
 const Projects = () => {
   return (
-    <section className={ProjectsStyle.projects}>
+    <section id="projects" className={ProjectsStyle.projects}>
       <p className={ProjectsStyle.title}>
         <span className="pink">#</span>
         Проекты

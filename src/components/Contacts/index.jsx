@@ -1,7 +1,11 @@
 import React from "react";
 
+import { Git } from "../ui/icons/Git";
+import { Vk } from "../ui/icons/Vk";
 import { Link } from "react-router-dom";
+import { Tg } from "../ui/icons/Tg";
 import ContactsStyle from "./Contacts.module.scss";
+import { Hh } from "../ui/icons/Hh";
 
 const Contacts = () => {
   return (
@@ -11,7 +15,7 @@ const Contacts = () => {
         Контакты
       </p>
       <div className={ContactsStyle.wrapper}>
-        <p>Открыт для предложений, пишите в личные сообщения:</p>
+        <p>Открыт для предложений, сотрудничества и тд.</p>
         <ul className={ContactsStyle.description}>
           <li>
             <Link
@@ -19,7 +23,7 @@ const Contacts = () => {
               className={ContactsStyle.link}
               target="_blank"
             >
-              Github
+              <Git />
             </Link>
           </li>
           <li>
@@ -28,16 +32,25 @@ const Contacts = () => {
               className={ContactsStyle.link}
               target="_blank"
             >
-              Vkontakte
+              <Vk />
             </Link>
           </li>
-          <li>
+          <li className="test">
             <Link
               to="https://t.me/nikita_osipov59"
               className={ContactsStyle.link}
               target="_blank"
             >
-              Telegram
+              <Tg />
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="https://hh.ru/resume/491d40b8ff0cf220c20039ed1f79674d4b3669"
+              className={ContactsStyle.link}
+              target="_blank"
+            >
+              <Hh />
             </Link>
           </li>
         </ul>
