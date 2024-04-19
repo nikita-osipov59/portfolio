@@ -15,6 +15,7 @@ $color-black: #000;
 $fontSize-default: 16px;
 $fontSize-medium: 24px;
 $fontSize-big: 30px;
+$fontSize-huge: 50px;
 
 $fontWeight-regular: 400;
 $fontWeight-medium: 500;
@@ -33,3 +34,6 @@ $color-buttonBg: rgba(
   $color: #c778dd,
   $alpha: 20%,
 );
+
+// text gradient
+$color-red-grad: #f81d55;

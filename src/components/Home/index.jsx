@@ -9,12 +9,12 @@ const Home = () => {
         <div className={HomeStyle.text}>
           <p>Привет!</p>
           <h2 className={HomeStyle.title}>
-            Я Никита, <span className="pink">фронтенд-разработчик</span>!
+            Я Никита — фронтенд-разработчик<span>👻</span>
           </h2>
           <p className={HomeStyle.description}>
             Создаю красивые и удобные веб-интерфейсы для твоего комфорта!
           </p>
-          <Button title="Контакты" />
+          <Button icon="click" title="Контакты" />
         </div>
         <div className={HomeStyle.img}>
           <img src="me.jpg" alt="me" />

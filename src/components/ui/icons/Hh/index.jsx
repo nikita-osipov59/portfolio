@@ -2,7 +2,7 @@ import React from "react";
 
 import HhStyle from "./HH.module.scss";
 
-export const Hh = () => {
+export const HH = () => {
   return (
     <svg
       className={HhStyle.svg}

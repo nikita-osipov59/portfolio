@@ -2,7 +2,7 @@ import React from "react";
 
 import vkStyle from "./vk.module.scss";
 
-export const Vk = () => {
+export const VK = () => {
   return (
     <svg
       className={vkStyle.svg}

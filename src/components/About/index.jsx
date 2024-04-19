@@ -3,14 +3,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AboutStyle from "./About.module.scss";
 import { Button } from "../ui/Button";
+import { Title } from "../ui/Title";
 
 const About = () => {
   return (
-    <section className={AboutStyle.about}>
-      <p className={AboutStyle.title}>
-        <span className="pink">#</span>
-        Обо-мне
-      </p>
+    <section id="about" className={AboutStyle.about}>
+      <Title title="Обо-мне" />
       <div className={AboutStyle.wrapper}>
         <div className={AboutStyle.description}>
           <p>
@@ -38,7 +36,11 @@ const About = () => {
           </Link>
           .
           <br />
-          <Button title="Написать мне" href="https://t.me/nikita_osipov59" />
+          <Button
+            icon="mail"
+            title="Написать мне"
+            href="https://t.me/nikita_osipov59"
+          />
         </div>
         <div className={AboutStyle.img}>
           <img src="/me2.jpg" alt="me" />

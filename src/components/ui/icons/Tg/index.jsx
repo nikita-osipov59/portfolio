@@ -2,7 +2,7 @@ import React from "react";
 
 import tgStyle from "./tg.module.scss";
 
-export const Tg = () => {
+export const TG = () => {
   return (
     <svg
       className={tgStyle.svg}

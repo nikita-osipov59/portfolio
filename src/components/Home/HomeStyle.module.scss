@@ -59,6 +59,13 @@
       .title {
         font-size: $fontSize-big;
         font-weight: $fontWeight-semibold;
+        background: linear-gradient(90deg, $color-primary, $color-red-grad);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        span {
+          -webkit-text-fill-color: initial;
+          margin-left: 5px;
+        }
       }
       .description {
         margin-top: 10px;

@@ -19,17 +19,21 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <Link>
+            <Link
+              onClick={() => projects.scrollIntoView({ behavior: "smooth" })}
+            >
               <span className="pink">#</span>Проекты
             </Link>
           </li>
           <li>
-            <Link>
+            <Link onClick={() => about.scrollIntoView({ behavior: "smooth" })}>
               <span className="pink">#</span>Обо-мне
             </Link>
           </li>
           <li>
-            <Link>
+            <Link
+              onClick={() => contacts.scrollIntoView({ behavior: "smooth" })}
+            >
               <span className="pink">#</span>Контакты
             </Link>
           </li>

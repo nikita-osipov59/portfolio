@@ -1,19 +1,17 @@
 import React from "react";
 
-import { Git } from "../ui/icons/Git";
-import { Vk } from "../ui/icons/Vk";
-import { Link } from "react-router-dom";
-import { Tg } from "../ui/icons/Tg";
 import ContactsStyle from "./Contacts.module.scss";
-import { Hh } from "../ui/icons/Hh";
+import { Link } from "react-router-dom";
+import { Git } from "../ui/icons/Git";
+import { VK } from "../ui/icons/VK";
+import { TG } from "../ui/icons/TG";
+import { HH } from "../ui/icons/HH";
+import { Title } from "../ui/Title";
 
 const Contacts = () => {
   return (
-    <section className={ContactsStyle.contacts}>
-      <p className={ContactsStyle.title}>
-        <span className="pink">#</span>
-        Контакты
-      </p>
+    <section id="contacts" className={ContactsStyle.contacts}>
+      <Title title="Контакты" />
       <div className={ContactsStyle.wrapper}>
         <p>Открыт для предложений, сотрудничества и тд.</p>
         <ul className={ContactsStyle.description}>
@@ -32,16 +30,16 @@ const Contacts = () => {
               className={ContactsStyle.link}
               target="_blank"
             >
-              <Vk />
+              <VK />
             </Link>
           </li>
-          <li className="test">
+          <li>
             <Link
               to="https://t.me/nikita_osipov59"
               className={ContactsStyle.link}
               target="_blank"
             >
-              <Tg />
+              <TG />
             </Link>
           </li>
           <li>
@@ -50,7 +48,7 @@ const Contacts = () => {
               className={ContactsStyle.link}
               target="_blank"
             >
-              <Hh />
+              <HH />
             </Link>
           </li>
         </ul>

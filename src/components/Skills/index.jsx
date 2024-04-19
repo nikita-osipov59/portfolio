@@ -2,14 +2,12 @@ import React from "react";
 
 import SkillsStyle from "./Skills.module.scss";
 import { Table } from "../ui/Table";
+import { Title } from "../ui/Title";
 
 const Skills = () => {
   return (
     <section id="skills" className={SkillsStyle.skills}>
-      <p className={SkillsStyle.title}>
-        <span className="pink">#</span>
-        Навыки
-      </p>
+      <Title title="Навыки" />
       <div className={SkillsStyle.wrapper}>
         <img src="/qube.svg" alt="" />
         <div className={SkillsStyle.table}>

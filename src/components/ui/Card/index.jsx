@@ -20,7 +20,11 @@ export const Card = () => {
       {project.map((project) => (
         <div key={project.id} className={CardStyle.projectCard}>
           <div className={CardStyle.projectImg}>
-            <img src={project.imgUrl} alt="project" />
+            <img
+              className={CardStyle.test2}
+              src={project.imgUrl}
+              alt="project"
+            />
           </div>
           <p className={CardStyle.projectScpecs}>{project.specs}</p>
           <div className={CardStyle.projectInfo}>
@@ -28,7 +32,7 @@ export const Card = () => {
             <p className={CardStyle.projectDescription}>
               {project.description}
             </p>
-            <Button title="Live" href={project.linkUrl} />
+            <Button icon="play" title="Live" href={project.linkUrl} />
           </div>
         </div>
       ))}
