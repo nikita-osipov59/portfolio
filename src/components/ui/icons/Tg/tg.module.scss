@@ -1,0 +1,10 @@
+@import "../../../../styles/variables.modules";
+
+.svg:hover {
+  .path1 {
+    fill: $color-light-blue;
+  }
+  .path2 {
+    fill: $color-secondary;
+  }
+}
