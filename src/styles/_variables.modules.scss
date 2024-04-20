@@ -5,9 +5,35 @@ $color-secondary: #fff;
 $color-primary: #c778dd;
 $color-background: #282c33;
 
+// icons
+$color-light-blue: #2aabee;
+$color-blue: #0077ff;
+$color-red: #e1011c;
+$color-black: #000;
+
 // variables
 $fontSize-default: 16px;
+$fontSize-medium: 24px;
+$fontSize-big: 30px;
+$fontSize-huge: 50px;
 
 $fontWeight-regular: 400;
 $fontWeight-medium: 500;
-$fontWeight-semobold: 600;
+$fontWeight-semibold: 600;
+
+$lineHeight-low: 1;
+$lineHeight-default: 1.5;
+$lineHeight-medium: 1.6;
+
+$transition-default: 300ms;
+$transition-high: 0.3s ease-in-out;
+
+// button hover
+
+$color-buttonBg: rgba(
+  $color: #c778dd,
+  $alpha: 20%,
+);
+
+// text gradient
+$color-red-grad: #f81d55;

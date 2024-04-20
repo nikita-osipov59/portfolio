@@ -1,0 +1,32 @@
+@import "../../styles/variables.modules";
+
+.skills {
+  margin-top: 130px;
+  .title {
+    font-size: $fontSize-big;
+    font-weight: $fontWeight-medium;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      width: 500px;
+      background-color: $color-primary;
+      bottom: 50%;
+      margin-left: 30px;
+    }
+  }
+  .wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    .table {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 450px;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
