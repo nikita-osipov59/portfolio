@@ -1,0 +1,23 @@
+@import "../../../styles/variables.modules";
+
+.table {
+  border: 1px solid $color-accent;
+  margin-bottom: 15px;
+  transition: 0.3s;
+  &:hover .description {
+    background: linear-gradient(90deg, #c778dd, #f81d55);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+  }
+  .title {
+    font-weight: $fontWeight-semibold;
+    border-bottom: 1px solid $color-accent;
+    padding: 8px;
+  }
+  .description {
+    display: table;
+    padding: 8px;
+    width: 200px;
+  }
+}

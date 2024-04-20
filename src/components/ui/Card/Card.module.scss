@@ -1,0 +1,33 @@
+@import "../../../styles/variables.modules";
+
+.projectCard {
+  min-width: 332px;
+  border: 1px solid $color-accent;
+  margin: 0px 15px 15px 0px;
+  transition: 0.3s;
+  &:hover {
+    border: 1px solid $color-primary;
+    transform: scale(105%);
+  }
+
+  .projectImg img {
+    max-width: 330px;
+    min-height: 200px;
+  }
+  .projectScpecs {
+    border-top: 1px solid $color-accent;
+    border-bottom: 1px solid $color-accent;
+    padding: 8px;
+  }
+  .projectInfo {
+    padding: 15px;
+    .projectTitle {
+      font-size: $fontSize-medium;
+      font-weight: $fontWeight-medium;
+      line-height: $lineHeight-low;
+    }
+    .projectDescription {
+      margin-top: 15px;
+    }
+  }
+}

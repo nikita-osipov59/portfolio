@@ -1,0 +1,67 @@
+@import "../../styles/variables.modules";
+
+.aboutSection {
+  margin-top: 50px;
+  img {
+    border-radius: 260px;
+    height: 700px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  .description {
+    max-width: 600px;
+    margin-top: 200px;
+    line-height: $lineHeight-medium;
+    position: relative;
+    pre {
+      white-space: break-spaces;
+      font-family: inherit;
+      margin-top: 15px;
+    }
+    .addition {
+      margin-top: 15px;
+    }
+    .link {
+      transition: 0.3s;
+      &:hover {
+        color: darken($color-primary, $amount: 15);
+      }
+    }
+  }
+  .img {
+    position: relative;
+    &::before {
+      content: "";
+      background-image: url(/qwe.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      top: 0px;
+      left: -80px;
+      z-index: -1;
+      opacity: 30%;
+    }
+    &::after {
+      content: "";
+      background-image: url(/asd.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      bottom: 0px;
+      right: -80px;
+      z-index: -1;
+      opacity: 30%;
+    }
+    img {
+      border-radius: 260px;
+      height: 700px;
+    }
+  }
+}

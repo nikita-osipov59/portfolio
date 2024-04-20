@@ -1,0 +1,12 @@
+@import "../../../styles/variables.modules";
+
+.fill {
+  circle {
+    transition: 0.3s;
+  }
+  &:hover {
+    circle {
+      fill: #c778dd;
+    }
+  }
+}
