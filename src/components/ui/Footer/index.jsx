@@ -50,7 +50,7 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <p className="pink">© 2024</p>
+        <p className="pink">2024©</p>
       </div>
     </footer>
   );
