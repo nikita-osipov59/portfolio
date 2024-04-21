@@ -1,6 +1,6 @@
 import ProjectsStyle from "./Projects.module.scss";
-import { Card } from "../ui/Card";
-import { Title } from "../ui/Title";
+import { Card } from "../../ui/Card";
+import { Title } from "../../ui/Title";
 
 const Projects = () => {
   return (

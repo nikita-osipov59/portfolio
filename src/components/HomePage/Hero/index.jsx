@@ -1,22 +1,22 @@
 import React from "react";
 
-import { Button } from "../ui/Button";
-import HomeStyle from "./HomeStyle.module.scss";
-const Home = () => {
+import { Button } from "../../ui/Button";
+import HeroStyle from "./HeroStyle.module.scss";
+const Hero = () => {
   return (
-    <section className={HomeStyle.home}>
-      <div className={HomeStyle.homeBox}>
-        <div className={HomeStyle.text}>
+    <section className={HeroStyle.hero}>
+      <div className={HeroStyle.heroBox}>
+        <div className={HeroStyle.text}>
           <p>Привет!</p>
-          <h2 className={HomeStyle.title}>
+          <h2 className={HeroStyle.title}>
             Я Никита — фронтенд-разработчик<span>👻</span>
           </h2>
-          <p className={HomeStyle.description}>
+          <p className={HeroStyle.description}>
             Создаю красивые и удобные веб-интерфейсы для твоего комфорта!
           </p>
           <Button icon="click" title="Контакты" />
         </div>
-        <div className={HomeStyle.img}>
+        <div className={HeroStyle.img}>
           <img src="me.jpg" alt="me" />
         </div>
       </div>
@@ -24,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Hero;

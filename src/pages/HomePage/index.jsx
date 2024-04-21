@@ -1,14 +1,14 @@
 import React from "react";
 
 import { Container } from "../../components/ui/Container";
-import Header from "../../components/Header";
+import { Header } from "../../components/ui/Header";
 import { Main } from "../../components/ui/Main";
-import Hero from "../../components/Hero";
-import Projects from "../../components/projects";
-import Skills from "../../components/Skills";
-import About from "../../components/About";
-import Contacts from "../../components/Contacts";
-import Footer from "../../components/Footer";
+import Hero from "../../components/HomePage/Hero";
+import Projects from "../../components/HomePage/projects";
+import Skills from "../../components/HomePage/Skills";
+import About from "../../components/HomePage/About";
+import Contacts from "../../components/HomePage/Contacts";
+import Footer from "../../components/ui/Footer";
 
 const Home = () => {
   return (
@@ -20,8 +20,8 @@ const Home = () => {
         <Skills />
         <About />
         <Contacts />
-        <Footer />
       </Main>
+      <Footer />
     </Container>
   );
 };

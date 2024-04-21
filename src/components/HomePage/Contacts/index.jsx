@@ -2,11 +2,11 @@ import React from "react";
 
 import ContactsStyle from "./Contacts.module.scss";
 import { Link } from "react-router-dom";
-import { Git } from "../ui/icons/Git";
-import { VK } from "../ui/icons/VK";
-import { TG } from "../ui/icons/TG";
-import { HH } from "../ui/icons/HH";
-import { Title } from "../ui/Title";
+import { Git } from "../../ui/icons/Git";
+import { VK } from "../../ui/icons/VK";
+import { TG } from "../../ui/icons/TG";
+import { HH } from "../../ui/icons/HH";
+import { Title } from "../../ui/Title";
 
 const Contacts = () => {
   return (

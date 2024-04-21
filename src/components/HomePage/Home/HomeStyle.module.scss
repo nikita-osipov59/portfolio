@@ -1,14 +1,13 @@
 @import "../../styles/variables.modules";
 
-.hero {
-  margin-top: 130px;
-  .heroBox {
+.home {
+  .homeBox {
     display: flex;
     justify-content: space-between;
     position: relative;
     &::before {
       content: "";
-      background-image: url(/squares.svg);
+      background-image: url(/group.svg);
       background-size: contain;
       background-repeat: no-repeat;
       height: 58px;
@@ -19,6 +18,7 @@
       z-index: -1;
       opacity: 30%;
     }
+
     .img {
       position: relative;
       &::before {

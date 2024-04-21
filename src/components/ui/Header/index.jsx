@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import { Logo } from "../ui/icons/Logo";
+import { Logo } from "../icons/Logo";
 import headerStyle from "./Header.module.scss";
-import { ROUTER_PATH } from "../../router/PATH";
+import { ROUTER_PATH } from "../../../router/PATH";
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className={headerStyle.header}>
       <nav>
@@ -43,5 +43,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

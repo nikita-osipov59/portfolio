@@ -1,9 +1,9 @@
 import React from "react";
 
 import SkillsStyle from "./Skills.module.scss";
-import { Table } from "../ui/Table";
-import { Title } from "../ui/Title";
-import Fragments from "../ui/Fragments";
+import { Table } from "../../ui/Table";
+import { Title } from "../../ui/Title";
+import Fragments from "../../ui/Fragments";
 
 const Skills = () => {
   return (

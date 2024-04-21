@@ -1,7 +1,6 @@
-@import "../../styles/variables.modules";
+@import "../../../styles/variables.modules";
 
-.projects {
-  margin-top: 130px;
+.skills {
   .title {
     font-size: $fontSize-big;
     font-weight: $fontWeight-medium;
@@ -16,10 +15,17 @@
       margin-left: 30px;
     }
   }
-  .box {
+  .wrapper {
     margin-top: 50px;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    .table {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 450px;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+    }
   }
 }
