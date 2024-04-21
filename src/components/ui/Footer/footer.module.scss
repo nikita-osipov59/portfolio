@@ -2,4 +2,22 @@
   display: flex;
   justify-content: center;
   padding: 20px 0px 10px;
+  text-align: center;
+  .wrapper {
+    margin-top: 50px;
+  }
+  ul {
+    display: flex;
+    li + li {
+      margin-left: 15px;
+    }
+  }
+  p {
+    margin-top: 10px;
+  }
+  svg {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 50%;
+  }
 }

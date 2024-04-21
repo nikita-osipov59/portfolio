@@ -1,0 +1,27 @@
+@import "../../../styles/variables.modules";
+
+.hardware {
+  .wrapper {
+    margin-top: 50px;
+  }
+  .boxList {
+    display: flex;
+    justify-content: space-around;
+    ul {
+      border: 1px solid $color-accent;
+      padding: 10px;
+      p {
+        text-align: center;
+        padding: 5px 0px 10px;
+      }
+    }
+    a {
+      color: $color-primary;
+      margin: 5px 0px 5px 5px;
+      transition: 0.3s;
+      &:hover {
+        color: darken($color-primary, $amount: 15);
+      }
+    }
+  }
+}

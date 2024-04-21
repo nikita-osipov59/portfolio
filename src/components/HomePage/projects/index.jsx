@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section id="projects" className={ProjectsStyle.projects}>
       <Title prefix="#" title="Проекты" />
-      <div className={ProjectsStyle.box}>
+      <div className={ProjectsStyle.wrapper}>
         <Card />
       </div>
     </section>
