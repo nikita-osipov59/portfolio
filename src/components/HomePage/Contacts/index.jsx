@@ -1,7 +1,7 @@
 import React from "react";
 
 import ContactsStyle from "./Contacts.module.scss";
-import { Title } from "../../ui/Title";
+import { Title } from "@/components/ui/Title";
 
 const Contacts = () => {
   return (

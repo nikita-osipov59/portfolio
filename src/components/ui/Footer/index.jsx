@@ -1,10 +1,10 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import { Git } from "../../ui/icons/Git";
-import { VK } from "../../ui/icons/VK";
-import { TG } from "../../ui/icons/TG";
-import { HH } from "../../ui/icons/HH";
+import { Git } from "@/components/ui/icons/Git";
+import { VK } from "@/components/ui/icons/VK";
+import { TG } from "@/components/ui/icons/TG";
+import { HH } from "@/components/ui/icons/HH";
 
 import footerStyle from "./footer.module.scss";
 

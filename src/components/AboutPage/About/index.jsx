@@ -1,8 +1,8 @@
 import React from "react";
 
 import style from "./style.module.scss";
-import { Title } from "../../ui/Title";
-import { Button } from "../../ui/Button";
+import { Title } from "@/components/ui/Title";
+import { Button } from "@/components/ui/Button";
 
 const AboutPage = () => {
   return (

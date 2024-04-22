@@ -1,7 +1,7 @@
 import React from "react";
 
 import style from "./style.module.scss";
-import { Title } from "../../ui/Title";
+import { Title } from "@/components/ui/Title";
 import { Link } from "react-router-dom";
 
 export const Hardware = () => {
@@ -36,7 +36,7 @@ export const Hardware = () => {
                 target="_blank"
                 to="https://www.kingston.com/datasheets/KF436C16RB1K2_32.pdf"
               >
-                Kingston FURY Renegade
+                Kingston FURY Renegade 16GB (x2)
               </Link>
             </li>
             <li>
@@ -54,7 +54,7 @@ export const Hardware = () => {
                 target="_blank"
                 to="https://www.kingston.com/ru/ssd/a400-solid-state-drive"
               >
-                Kingston A400
+                Kingston A400 240GB
               </Link>
             </li>
             <li>

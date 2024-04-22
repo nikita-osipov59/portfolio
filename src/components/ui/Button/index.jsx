@@ -2,10 +2,10 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import ButtonStyle from "./Button.module.scss";
-import Play from "../icons/Play";
-import Click from "../icons/Click";
-import Mail from "../icons/Mail";
-import User from "../icons/User";
+import Play from "@/components/ui/icons/Play";
+import Click from "@/components/ui/icons/Click";
+import Mail from "@/components/ui/icons/Mail";
+import User from "@/components/ui/icons/User";
 
 export const Button = ({ icon, href, title }) => {
   switch (icon) {

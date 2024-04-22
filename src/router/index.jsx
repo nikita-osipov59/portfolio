@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import { ROUTER_PATH } from "../router/PATH/";
-import AboutPage from "../pages/AboutPage";
-import HomePage from "../pages/HomePage";
+import { ROUTER_PATH } from "@/router/PATH/";
+import AboutPage from "@/pages/AboutPage";
+import HomePage from "@/pages/HomePage";
 
 export const Router = () => {
   return (

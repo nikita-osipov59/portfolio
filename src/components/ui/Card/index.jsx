@@ -2,9 +2,9 @@ import React from "react";
 
 import { useEffect, useState } from "react";
 import { collection, onSnapshot } from "firebase/firestore";
-import db from "../../../../firebase";
+import db from "@/../firebase";
 import CardStyle from "./Card.module.scss";
-import { Button } from "../Button";
+import { Button } from "@/components/ui/Button";
 
 export const Card = () => {
   const [project, setProject] = useState([]);

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import { Logo } from "../icons/Logo";
+import { Logo } from "@/components/ui/icons/Logo";
 import headerStyle from "./Header.module.scss";
-import { ROUTER_PATH } from "../../../router/PATH";
+import { ROUTER_PATH } from "@/router/PATH";
 
 export const Header = () => {
   return (

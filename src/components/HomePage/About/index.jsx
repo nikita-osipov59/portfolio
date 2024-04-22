@@ -2,9 +2,9 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import AboutStyle from "./About.module.scss";
-import { Button } from "../../ui/Button";
-import { Title } from "../../ui/Title";
-import { ROUTER_PATH } from "../../../router/PATH";
+import { Button } from "@/components/ui/Button";
+import { Title } from "@/components/ui/Title";
+import { ROUTER_PATH } from "@/components/../router/PATH";
 
 const About = () => {
   return (
