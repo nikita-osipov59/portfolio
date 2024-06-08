@@ -20,7 +20,7 @@ const Skills = () => {
             title="Инструменты"
             description="VSCode Figma Git Vite Postman Npm"
           />
-          <Table title="Фреймворк/Библиотека" description="React" />
+          <Table title="Фреймворки/Библиотеки" description="React Next" />
           <Table
             title="Эко-система"
             description="

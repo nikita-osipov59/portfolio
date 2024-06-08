@@ -1,0 +1,7 @@
+@import "@/styles/variables.modules";
+
+.path {
+  &:hover .test {
+    fill: #c778dd;
+  }
+}
