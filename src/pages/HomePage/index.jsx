@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Container } from "@/components/ui/Container";
+import Container from "@/components/ui/Container";
 import { Header } from "@/components/ui/Header";
 import { Main } from "@/components/ui/Main";
 import Hero from "@/components/HomePage/Hero";
