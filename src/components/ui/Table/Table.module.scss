@@ -2,8 +2,8 @@
 
 .table {
   border: 1px solid $color-accent;
-  margin-bottom: 15px;
   transition: 0.3s;
+  width: 200px;
   &:hover .description {
     background: linear-gradient(90deg, #c778dd, #f81d55);
     -webkit-background-clip: text;

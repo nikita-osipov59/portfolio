@@ -20,7 +20,7 @@ const Skills = () => {
             title="Инструменты"
             description="VSCode Figma Git Vite Postman Npm"
           />
-          <Table title="Фреймворки/Библиотеки" description="React Next" />
+          <Table title="Фреймворки & Библиотеки" description="React Next" />
           <Table
             title="Эко-система"
             description="
@@ -33,7 +33,7 @@ const Skills = () => {
           Axios fetch
           "
           />
-          <Table title="Базы данных" description="Firebase" />
+          <Table title="База данных" description="Firebase" />
         </div>
       </div>
     </section>

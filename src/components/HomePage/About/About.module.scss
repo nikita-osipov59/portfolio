@@ -4,12 +4,12 @@
   .wrapper {
     margin-top: 50px;
     display: flex;
+    position: relative;
     justify-content: space-between;
     .description {
       max-width: 600px;
-      margin-top: 200px;
+      align-self: center;
       line-height: $lineHeight-medium;
-      position: relative;
       &::after {
         content: "";
         background-image: url(/54.svg);

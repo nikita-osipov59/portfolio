@@ -16,9 +16,8 @@
     // background: linear-gradient(90deg, $color-primary, $color-test);
     // -webkit-background-clip: text;
     // -webkit-text-stroke: initial;
-    -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
-    font-size: 60px;
+    transform: scale(105%);
   }
   &::after {
     content: "";
