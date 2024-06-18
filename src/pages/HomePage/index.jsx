@@ -1,6 +1,6 @@
 import React from "react";
 
-import Container from "../../components/ui/Container";
+import { Container } from "@/components/ui/Container";
 import { Header } from "@/components/ui/Header";
 import { Main } from "@/components/ui/Main";
 import Hero from "@/components/HomePage/Hero";
@@ -12,17 +12,19 @@ import Footer from "@/components/ui/Footer";
 
 const Home = () => {
   return (
-    <Container>
+    <>
       <Header />
-      <Main>
-        <Hero />
-        <Projects />
-        <Skills />
-        <About />
-        <Contacts />
-      </Main>
-      <Footer />
-    </Container>
+      <Container>
+        <Main>
+          <Hero />
+          {/* <Projects /> */}
+          {/* <Skills /> */}
+          {/* <About /> */}
+          {/* <Contacts /> */}
+        </Main>
+        {/* <Footer /> */}
+      </Container>
+    </>
   );
 };
 

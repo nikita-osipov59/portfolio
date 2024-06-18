@@ -13,7 +13,7 @@
   justify-content: space-between;
   .description {
     max-width: 600px;
-    margin-top: 200px;
+    align-self: center;
     line-height: $lineHeight-medium;
     position: relative;
     pre {

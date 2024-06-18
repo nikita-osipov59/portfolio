@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 import HeroStyle from "./HeroStyle.module.scss";
 const Hero = () => {
   return (
-    <section className={HeroStyle.hero}>
+    <section id="hero" className={HeroStyle.hero}>
       <div className={HeroStyle.heroBox}>
         <div className={HeroStyle.text}>
           <p>Привет!</p>
@@ -16,8 +16,8 @@ const Hero = () => {
           </p>
           <Button icon="click" title="Контакты" />
         </div>
-        <div className={HeroStyle.img}>
-          <img src="me.jpg" alt="me" />
+        <div className={HeroStyle.imgBox}>
+          <img className={HeroStyle.img} src="me.jpg" alt="me" />
         </div>
       </div>
     </section>
