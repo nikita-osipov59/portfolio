@@ -1,8 +1,4 @@
-import React from "react";
-
-import style from "./style.module.scss";
-
-export const Logo = ({ color }) => {
+export const Logo = () => {
   return (
     <>
       <svg

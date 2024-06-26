@@ -1,10 +1,8 @@
-import React from "react";
-
 import style from "./style.module.scss";
 import { Title } from "@/components/ui/Title";
 import { Button } from "@/components/ui/Button";
 
-const AboutPage = () => {
+export const About = () => {
   return (
     <section className={style.about}>
       <Title prefix="/" title="обо-мне" />
@@ -35,5 +33,3 @@ const AboutPage = () => {
     </section>
   );
 };
-
-export default AboutPage;

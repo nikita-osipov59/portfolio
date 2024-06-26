@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Link } from "react-router-dom";
 import { Git } from "@/components/ui/icons/Git";
 import { VK } from "@/components/ui/icons/VK";

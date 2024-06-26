@@ -1,5 +1,3 @@
-import React from "react";
-
 import tgStyle from "./tg.module.scss";
 
 export const TG = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 import vkStyle from "./vk.module.scss";
 
 export const VK = () => {

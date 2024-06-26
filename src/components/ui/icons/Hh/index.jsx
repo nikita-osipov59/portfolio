@@ -1,5 +1,3 @@
-import React from "react";
-
 import HhStyle from "./HH.module.scss";
 
 export const HH = () => {

@@ -63,13 +63,14 @@
     z-index: 1;
     align-items: center;
     transition: 0.5s;
+    li + li {
+      margin-left: 0px !important;
+    }
   }
   .active {
     right: 0px;
   }
-  li + li {
-    margin-left: 0px !important;
-  }
+
   .logo {
     z-index: 2;
   }

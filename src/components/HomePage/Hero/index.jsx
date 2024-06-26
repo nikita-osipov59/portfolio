@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Button } from "@/components/ui/Button";
 import HeroStyle from "./HeroStyle.module.scss";
 const Hero = () => {

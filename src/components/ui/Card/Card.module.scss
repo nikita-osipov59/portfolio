@@ -1,7 +1,6 @@
 @import "@/styles/variables.modules";
 
 .projectCard {
-  min-width: 332px;
   border: 1px solid $color-accent;
   margin: 0px 15px 15px 0px;
   transition: 0.3s;
@@ -11,7 +10,7 @@
   }
 
   .projectImg img {
-    max-width: 330px;
+    width: 330px;
     min-height: 200px;
   }
   .projectScpecs {
@@ -29,5 +28,11 @@
     .projectDescription {
       margin-top: 15px;
     }
+  }
+}
+
+@media (max-width: 693px) {
+  .projectCard {
+    margin: 0px 0px 15px 0px !important;
   }
 }

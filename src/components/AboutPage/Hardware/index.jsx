@@ -1,5 +1,3 @@
-import React from "react";
-
 import style from "./style.module.scss";
 import { Title } from "@/components/ui/Title";
 import { Link } from "react-router-dom";

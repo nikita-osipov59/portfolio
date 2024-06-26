@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Container } from "@/components/ui/Container";
 import { Header } from "@/components/ui/Header";
 import { Main } from "@/components/ui/Main";
@@ -17,12 +15,12 @@ const Home = () => {
       <Container>
         <Main>
           <Hero />
-          {/* <Projects /> */}
-          {/* <Skills /> */}
-          {/* <About /> */}
-          {/* <Contacts /> */}
+          <Projects />
+          <Skills />
+          <About />
+          <Contacts />
         </Main>
-        {/* <Footer /> */}
+        <Footer />
       </Container>
     </>
   );

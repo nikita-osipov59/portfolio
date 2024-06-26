@@ -1,5 +1,3 @@
-import React from "react";
-
 import gitStyle from "./git.module.scss";
 
 export const Git = () => {

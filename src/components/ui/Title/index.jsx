@@ -1,5 +1,3 @@
-import React from "react";
-
 import style from "./Style.module.scss";
 export const Title = ({ prefix, title }) => {
   return (

@@ -1,5 +1,3 @@
-import React from "react";
-
 import SkillsStyle from "./Skills.module.scss";
 import { Table } from "@/components/ui/Table";
 import { Title } from "@/components/ui/Title";

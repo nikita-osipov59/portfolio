@@ -29,3 +29,19 @@
     margin-left: 30px;
   }
 }
+
+@media (max-width: 1000px) {
+  .title {
+    &::after {
+      width: 250px !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    &::after {
+      display: none;
+    }
+  }
+}

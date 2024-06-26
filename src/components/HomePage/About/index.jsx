@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Link } from "react-router-dom";
 import AboutStyle from "./About.module.scss";
 import { Button } from "@/components/ui/Button";
@@ -39,8 +37,8 @@ const About = () => {
           <br />
           <Button icon="user" title="Подробнее" href={ROUTER_PATH.ABOUT} />
         </div>
-        <div className={AboutStyle.img}>
-          <img src="/me2.jpg" alt="me" />
+        <div className={AboutStyle.imgBox}>
+          <img className={AboutStyle.img} src="/me2.jpg" alt="me" />
         </div>
       </div>
     </section>

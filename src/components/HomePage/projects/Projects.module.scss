@@ -22,3 +22,11 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 1023px) {
+  .title {
+    &::after {
+      width: 250px !important;
+    }
+  }
+}

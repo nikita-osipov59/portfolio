@@ -1,5 +1,3 @@
-import React from "react";
-
 import tableStyle from "./Table.module.scss";
 
 export const Table = ({ title, description }) => {
