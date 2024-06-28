@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/Button";
 import { Title } from "@/components/ui/Title";
 import { ROUTER_PATH } from "@/components/../router/PATH";
 
-const About = () => {
+export const About = () => {
   return (
     <section id="about" className={AboutStyle.about}>
       <Title prefix="#" title="Обо-мне" />
@@ -44,5 +44,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;

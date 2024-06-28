@@ -2,7 +2,7 @@ import ProjectsStyle from "./Projects.module.scss";
 import { Card } from "@/components/ui/Card";
 import { Title } from "@/components/ui/Title";
 
-const Projects = () => {
+export const Projects = () => {
   return (
     <section id="projects" className={ProjectsStyle.projects}>
       <Title prefix="#" title="Проекты" />
@@ -12,5 +12,3 @@ const Projects = () => {
     </section>
   );
 };
-
-export default Projects;

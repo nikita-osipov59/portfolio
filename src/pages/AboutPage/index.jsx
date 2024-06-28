@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/Container";
 import { Main } from "@/components/ui/Main";
 import { About } from "@/components/AboutPage/About";
 import { Hardware } from "@/components/AboutPage/Hardware";
-import Footer from "@/components/ui/Footer";
+import { Footer } from "@/components/ui/Footer";
 
 const AboutPage = () => {
   return (

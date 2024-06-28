@@ -6,7 +6,7 @@ import { HH } from "@/components/ui/icons/HH";
 
 import footerStyle from "./footer.module.scss";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className={footerStyle.footer}>
       <div className={footerStyle.wrapper}>
@@ -53,5 +53,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

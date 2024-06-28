@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import HeroStyle from "./HeroStyle.module.scss";
-const Hero = () => {
+export const Hero = () => {
   return (
     <section id="hero" className={HeroStyle.hero}>
       <div className={HeroStyle.heroBox}>
@@ -21,5 +21,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

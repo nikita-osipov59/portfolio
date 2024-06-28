@@ -3,7 +3,7 @@ import { Table } from "@/components/ui/Table";
 import { Title } from "@/components/ui/Title";
 import Fragments from "@/components/ui/Fragments";
 
-const Skills = () => {
+export const Skills = () => {
   return (
     <section id="skills" className={SkillsStyle.skills}>
       <Title prefix="#" title="Навыки" />
@@ -37,5 +37,3 @@ const Skills = () => {
     </section>
   );
 };
-
-export default Skills;

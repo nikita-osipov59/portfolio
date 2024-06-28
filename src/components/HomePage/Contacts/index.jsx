@@ -1,7 +1,7 @@
 import ContactsStyle from "./Contacts.module.scss";
 import { Title } from "@/components/ui/Title";
 
-const Contacts = () => {
+export const Contacts = () => {
   return (
     <section id="contacts" className={ContactsStyle.contacts}>
       <Title prefix="#" title="Контакты" />
@@ -11,5 +11,3 @@ const Contacts = () => {
     </section>
   );
 };
-
-export default Contacts;
